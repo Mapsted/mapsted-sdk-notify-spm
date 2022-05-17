@@ -1,0 +1,11 @@
+framework module MapstedAlerts {
+  umbrella header "MapstedAlerts.h"
+
+  export *
+  module * { export * }
+}
+
+module MapstedAlerts.Swift {
+    header "MapstedAlerts-Swift.h"
+    requires objc
+}

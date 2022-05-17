@@ -1,0 +1,11 @@
+framework module MapstedTriggersCore {
+  umbrella header "MapstedTriggersCore.h"
+
+  export *
+  module * { export * }
+}
+
+module MapstedTriggersCore.Swift {
+    header "MapstedTriggersCore-Swift.h"
+    requires objc
+}
